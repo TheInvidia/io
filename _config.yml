@@ -6,10 +6,10 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 ## Base settings ##
-url: "https://tianqi.name" #The site's Protocol and Hostname e.g. https://blog.someone.com (!!required!!)
-title: Tian Qi
+url: "https://blog.6941.tech/" #The site's Protocol and Hostname e.g. https://blog.someone.com (!!required!!)
+title: 6941 | IronPulse
 description: > #this means to ignore newlines until "base_path:"
-    Tian Qi | 田琦
+    6941 | IronPulse
 
 ##* Home base settings ##
 baseurl: "/"
@@ -18,8 +18,8 @@ avata_url: https://wx3.sinaimg.cn/large/73bd9e13ly1fjkqy66hl8j208c08c0td.jpg
 ##* Blog base settings ##
 blog:
   baseurl: "/blog"
-  title: Qi's blog
-  description: Tian Qi's Blog | 田琦的博客
+  title: IronPulse | Tutorials
+  description: IronPulse | Tutorials
   nav_lists:
     - title: About
       url: /blog/about.html
@@ -28,42 +28,12 @@ artworks:
   baseurl: ""
 
 ## GitHub repository (if the site is hosted by GitHub) ##
-repository: kitian616/kitian616.github.io
+repository: TheInvidia/theinvidia.github.io
 repository_tree: master
 
 ## Language & timezone ##
 lang: zh # the language of your site
 timezone: Asia/Shanghai
-
-## Author & social ##
-author:
-  name: "Tian Qi"
-  email: kitian616@outlook.com
-  twitter: kitian616
-  github:  kitian616
-  googleplus: 101827554735084402671
-  weibo: 234695683
-  douban: kitian616
-
-## Comment system (Disqus) ##
-disqus:
-  shortname: kitian616-github-io
-
-## Google Analytics ##
-ga_tracking_id: UA-71907556-1
-
-## Reading quantity (LeanCloud) ##
-leancloud:
-  app_id: uAG3OhdcH8H4fxSqXLyBljA7-gzGzoHsz
-  app_key: Mzf5m9skSwYVWVXhGiYMNyXs
-  app_class: ThomasBlog
-
-## Paginate ##
-paginate: 7
-paginate_path: /blog/page:num
-
-## Post excerpts ##
-excerpt_separator: <!--more-->
 
 ## Build ##
 markdown: kramdown
